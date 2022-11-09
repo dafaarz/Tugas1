@@ -1,7 +1,7 @@
 @extends('layout')
 
 @section('container')
-<h1>About Murid</h1>
+<h1 class="text-success">MURID BERPRESTASI DI HU</h1>
 
 @foreach($datas as $dataid)
 <h1>{{ $dataid["nama"] }}</h1>
